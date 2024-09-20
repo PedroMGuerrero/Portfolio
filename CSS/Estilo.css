@@ -938,7 +938,7 @@ footer{
 
 /* Seccion Responsive */
 /* Seccion Responsive Menu*/
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 480px){
 
     .menu .fa-solid  {
         display: block;
@@ -1019,23 +1019,11 @@ footer{
     .portfolio .galeria .proyecto img{
         width: 100%;
     }
-}
-/* Seccion Animacion de Contacto */
-@keyframes shake{
-    0%, 100% {transform: translateX(0);}
-    10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);}
-    20%, 40%, 60%, 80% {transform: translateX(10px);}
-}
-/* Seccion Responsive Contacto*/
-@media screen and (max-width: 700px) {
     .contacto{
         width: 100%;
         display: block;
-        padding: 10px;
+        padding: 5%;
         margin-right: auto;
-    }
-    .contacto-fondo-img{
-        gap: 15px;
     }
     .contacto-caja{
         display: block;
@@ -1051,8 +1039,16 @@ footer{
         text-align: center;
     }
 }
+/* Seccion Animacion de Contacto */
+@keyframes shake{
+    0%, 100% {transform: translateX(0);}
+    10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);}
+    20%, 40%, 60%, 80% {transform: translateX(10px);}
+}
+/* Seccion Responsive Contacto*/
+
 /* Seccion Responsive Modal de Inicio*/
-@media (max-width: 700px) {
+@media (max-width: 480px) {
     .modal-content {
         padding: 15px;
         font-size: 14px;
