@@ -938,7 +938,7 @@ footer{
 
 /* Seccion Responsive */
 /* Seccion Responsive Menu*/
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 700px){
 
     .menu .fa-solid  {
         display: block;
@@ -979,16 +979,6 @@ footer{
 }
 /* Seccion Responsive Bloques*/
 @media screen and (max-width: 480px){
-    .inicio{
-        display: block;
-        width: 100%;
-    }
-    .inicio .fondo-img{
-        width: 100%;
-    }
-    .inicio .fondo-img .contenido-banner .contenedor-img .redes .descargar{
-        width: 100%;
-    }
     .sobremi .fila{
         display: block;
     }
@@ -1029,10 +1019,19 @@ footer{
     .portfolio .galeria .proyecto img{
         width: 100%;
     }
+}
+/* Seccion Animacion de Contacto */
+@keyframes shake{
+    0%, 100% {transform: translateX(0);}
+    10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);}
+    20%, 40%, 60%, 80% {transform: translateX(10px);}
+}
+/* Seccion Responsive Contacto*/
+@media only screen and (max-width: 480px) {
     .contacto{
         width: 100%;
         display: block;
-        padding: 5%;
+        padding: 10px;
         margin-right: auto;
     }
     .contacto-caja{
@@ -1049,14 +1048,6 @@ footer{
         text-align: center;
     }
 }
-/* Seccion Animacion de Contacto */
-@keyframes shake{
-    0%, 100% {transform: translateX(0);}
-    10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);}
-    20%, 40%, 60%, 80% {transform: translateX(10px);}
-}
-/* Seccion Responsive Contacto*/
-
 /* Seccion Responsive Modal de Inicio*/
 @media (max-width: 480px) {
     .modal-content {
