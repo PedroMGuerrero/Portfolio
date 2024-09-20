@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contacto</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/siguiendo.ico">
+    <link rel="stylesheet" href="./CSS/Estilo.css">
+</head>
+<body>
+     <!-- MENU ENCABEZADO -->
+     <nav class="menu">
+        <img src="./img/Logo Final.png" alt="logo" class="logo">
+        <ul id="menu-responsive">
+            <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Sobre.html">Sobre Mi</a></li>
+                    <li><a href="Formacion.html">Curriculum</a></li>
+                    <li><a href="Portafolio.html">Portafolio</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+            <i class="fa-solid fa-right-to-bracket" onclick="CerrarMenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="AbrirMenu()"></i>
+    </nav>
+
+<!-- SECCION Contacto -->
+<section id="contacto" class="contacto">
+<img src="./img/fondo_web.jpg" alt="Fondo" class="contacto-fondo-img">
+<div class="contacto-caja">
+   <div class="contacto-info">
+        <h1>Para Contactar con Nosotros</h1>
+        <div class="contacto-datos">
+            <p><i class="fa-solid fa-phone"></i>(809) 416 - 0365</p>
+            <p><i class="fa-solid fa-envelope"></i>lic.pedromguerrero@gmail.com</p>
+            <p><i class="fa-solid fa-location-dot"></i>San Pedro de Macoris/Republica Dominicana</p>
+        </div>
+        <h2>Sigueme en:</h2>
+        <div class="contacto-links">
+            <a href="https://www.facebook.com/pedromiguel.guerrerocarrion" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://wa.me/18094160365" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/pedro_miguel_guerrero/?next=%2F" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/pedro-miguel-guerrero-b1a596237/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/PedroMGuerrero" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+   </div>
+   <form class="contacto-form" action="https://formsubmit.co/lic.pedromguerrero@gmail.com" method="POST" target="_blank">
+        <div class="input-box">
+            <input type="text" name="name" required placeholder="Nombre Completo">
+            <i class="fa-solid fa-user"></i>
+        </div>
+        <div class="input-box">
+            <input type="email" name="email" required placeholder="Correo Electronico">
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="input-box">
+            <input type="text" name="affair" required placeholder="Asunto">
+            <i class="fa-solid fa-pen-to-square"></i>
+        </div>
+        <div class="input-box">
+            <textarea name="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+        </div>
+        <button type="submit" onclick="alert('Su Mensaje se ha Enviado Correctamente...')">Enviar</button>
+   </form>
+</div>
+</section>
+
+    <!-- Pie Pagina -->
+    <footer>
+        <p>&copy; 2024 PedroMGuerrero. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="./JS/Codigo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/portafolio.ico">
+    <link rel="stylesheet" href="./CSS/Estilo.css">
+</head>
+<body>
+       <!-- MENU ENCABEZADO -->
+       <nav class="menu">
+        <img src="./img/Logo Final.png" alt="logo" class="logo">
+        <ul id="menu-responsive">
+            <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Sobre.html">Sobre Mi</a></li>
+                    <li><a href="Formacion.html">Curriculum</a></li>
+                    <li><a href="Portafolio.html">Portafolio</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+            <i class="fa-solid fa-right-to-bracket" onclick="CerrarMenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="AbrirMenu()"></i>
+    </nav>
+    
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <img src="./img/lienzo.png" alt="" class="fondo-lienzo">
+        <h2>Portafolio</h2>
+        <div class="container">
+            <h1 class="sub-title">Proyectos Practicas Front-End</h1>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="./img/Calculadora.PNG" alt="App para Clima">
+                    <div class="capa">
+                        <h3>CALCULADORA WEB</h3>
+                        <p>Calculadora web es una aplicación simple que permite realizar operaciones matemáticas básicas utilizando tecnologías como HTML, CSS y JavaScript.</p>
+                        </div>
+                </div>
+    
+                <div class="proyecto">
+                    <img src="./img/Snake Game.PNG" alt="Tienda en Línea">
+                    <div class="capa">
+                        <h3>SNAKE GAME</h3>
+                        <p>El juego de la serpiente (Snake) es un clásico de los videojuegos, el objetivo de este es controlar una serpiente que se mueve por el tablero, comer frutas para crecer y evitar chocar con las paredes o consigo misma. Esta aplicación está construida con tecnologías web estándar como HTML, CSS y JavaScript.</p>
+                        </div>
+                </div>
+            </div>
+            <h1 class="sub-title">Proyectos Personales</h1>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="./img/pokedex.PNG" alt="Lista de tareas">
+                    <div class="capa">
+                        <h3>POKEDEX</h3>
+                        <p>Pokédex esta es una aplicación interactiva que permite a los usuarios explorar información detallada sobre la 1era Generación de Pokémon a través de una interfaz sencilla y fácil de usar. La aplicación está construida con tecnologías web estándar como HTML, CSS y JavaScript, y se conecta a una API(PokéAPI) para obtener datos en tiempo real de los Pokémon, como su nombre, imagen, tipos, habilidades y estadísticas.</p>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie Pagina -->
+    <footer>
+        <p>&copy; 2024 PedroMGuerrero. Todos los derechos reservados.</p>
+    </footer>
+
+<script src="./JS/Codigo.js"></script>
+</body>
+</html>

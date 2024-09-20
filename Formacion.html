@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Curriculum</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+    <link rel="stylesheet" href="./CSS/Estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <nav class="menu">
+        <img src="./img/Logo Final.png" alt="logo" class="logo">
+        <ul id="menu-responsive">
+            <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Sobre.html">Sobre Mi</a></li>
+                    <li><a href="Formacion.html">Curriculum</a></li>
+                    <li><a href="Portafolio.html">Portafolio</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+            <i class="fa-solid fa-right-to-bracket" onclick="CerrarMenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="AbrirMenu()"></i>
+    </nav>
+
+    <!-- Formacion -->
+    <section id="formacion" class="formacion">
+        <img src="./img/lienzo.png" alt="" class="fondo-lienzo">
+        <div class="contenido-seccion">
+            <!-- Formacion Academica -->
+            <h2>Formación Academica</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <div class="item izq">
+                        <h4>Lic. En Informática</h4>
+                        <span class="casa">Universidad Autonoma de Santo Domingo (San Pedro - UASD)</span>
+                        <span class="fecha">2013 - 2020</span>
+                        <img src="./img/titulo.PNG" alt="imagen" class="titulo">
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                    <div id="miventana" class="ventana">
+                        <span class="cerrar">&times;</span>
+                        <img class="ventana-contenido" id="imgGrande">
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <div class="item der">
+                        <h4>Maestría en Auditoria & Seguridad Informática</h4>
+                        <span class="casa">Universidad Autonoma de Santo Domingo</span>
+                        <span class="fecha">2022 - Actualidad</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Formacion Tecnica -->
+        <div class="contenido-seccion">
+            <h2>Formación Técnica / Profesional</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <div class="item izq">
+                        <h4>Certificado en Microsoft Work</h4>
+                        <span class="casa">Infotep</span>
+                        <span class="fecha">2012/San Pedro de Macoris</span>
+                        <img src="./img/word.PNG" alt="imagen" class="word">
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                        <div id="miventana" class="ventana">
+                            <span class="cerrar">&times;</span>
+                            <img class="ventana-contenido" id="imgGrande">
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Asistente Web</h4>
+                        <span class="casa">Capacitate para el Empleo</span>
+                        <span class="fecha">2023/Virtual</span>
+                        <img src="./img/Web.PNG" alt="imagen" class="web">
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrollador Back-End</h4>
+                        <span class="casa">Capacitate para el Empleo</span>
+                        <span class="fecha">2024/Virtual/Actualmente</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <div class="item der">
+                        <h4>Manejador(a) de Presentaciones</h4>
+                        <span class="casa">Infotep</span>
+                        <span class="fecha">2012/San Pedro de Macoris</span>
+                        <img src="./img/power.PNG" alt="imagen" class="power">
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Desarrollador Front-End</h4>
+                        <span class="casa">Capacitate para el Empleo</span>
+                        <span class="fecha">2023/Virtual</span>
+                        <img src="./img/frontend.PNG" alt="imagen" class="frontend">
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Experiencia -->
+    <div class="contenido-seccion">
+        <h2>Experiencia</h2>
+        <div class="fila">
+            <div class="col izquierda">
+                <div class="item izq">
+                    <h4>Maestro de Programación</h4>
+                        <span class="casa">Colegio CEDEPSI</span>
+                        <span class="fecha">2019 - 2020</span>
+                        <ul>
+                            <li><p>Enseñanza de fundamentos de programación a estudiantes de secundaria.</p></li>
+                            <li><p>Desarrollo de materiales didácticos y ejercicios prácticos para fomentar el aprendizaje activo.</p></li>
+                        </ul>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                </div>
+                <div class="item izq">
+                    <h4>Soporte Técnico</h4>
+                        <span class="casa">Centro Hospitalario UCE</span>
+                        <span class="fecha">2020 - 2021</span>
+                        <ul>
+                            <li>
+                                <p>Mantenimiento y resolución de problemas técnicos en sistemas informáticos y redes.</p>
+                            </li>
+                            <li>
+                                <p>Soporte a usuarios finales para garantizar el correcto funcionamiento de equipos y software.</p>
+                            </li>
+                        </ul>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                </div>
+            </div>
+
+            <div class="col derecha">
+                <div class="item der">
+                    <h4>Programador Front-End</h4>
+                        <span class="casa">Freelance</span>
+                        <span class="fecha">2020 - 2022</span>
+                        <ul>
+                            <li><p>Desarrollo de sitios web y aplicaciones web para diversos clientes.</p></li>
+                            <li><p>Trabajo con tecnologías como HTML, CSS, JavaScript, React, Api Rest para crear interfaces de usuario atractivas y funcionales.</p></li>
+                            <li><p>Colaboración con diseñadores y otros desarrolladores para entregar proyectos a tiempo y con alta calidad.</p></li>
+                        </ul>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 PedroMGuerrero. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="./JS/Codigo.js"></script>
+</body>
+</html>
