@@ -979,6 +979,16 @@ footer{
 }
 /* Seccion Responsive Bloques*/
 @media screen and (max-width: 480px){
+    .inicio{
+        display: block;
+        width: 100%;
+    }
+    .inicio .fondo-img{
+        width: 100%;
+    }
+    .inicio .fondo-img .contenido-banner .contenedor-img .redes .descargar{
+        width: 100%;
+    }
     .sobremi .fila{
         display: block;
     }
