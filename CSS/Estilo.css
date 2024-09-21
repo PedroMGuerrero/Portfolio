@@ -938,7 +938,7 @@ footer{
 
 /* Seccion Responsive */
 /* Seccion Responsive Menu*/
-@media screen and (max-width: 980px){
+@media screen and (max-width: 700px){
 
     .menu .fa-solid  {
         display: block;
@@ -1029,9 +1029,9 @@ footer{
 /* Seccion Responsive Contacto*/
 @media screen and (max-width: 700px) {
     .contacto{
-        width: 100%;
+        width: 90%;
         display: block;
-        padding: 10%;
+        padding: 10px;
         margin-right: auto;
     }
     .contacto-caja{
