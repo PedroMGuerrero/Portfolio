@@ -67,20 +67,11 @@ html{
 /* Seccion Inicio */
 
 .inicio{
+    background: linear-gradient(rgba(0 0 0 / .5), rgba(0 0 0 / .5)), url('../img/fondo_web.jpg');
     height: 170vh;
     color: #fff;
     display: flex;
     align-items: center;
-}
-.inicio .fondo-img{
-    position: fixed;
-    opacity: 80%;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    z-index: -1;
 }
 .inicio .contenido-banner{
     padding: 50px;
@@ -786,7 +777,7 @@ html{
 /* Seccion Contacto */
 
 .contacto{
-    background-color: rgba(0, 0, 0, 0.8);
+    background: linear-gradient(rgba(0 0 0 / .8), rgba(0 0 0 / .8)), url('../img/fondo_web.jpg');
     display: grid;
     grid-template-columns: repeat(2,50%);
     padding: 100px;
@@ -914,17 +905,6 @@ html{
 .contacto-form > button:hover, .contacto-links > a:hover{
 background: #1CB698;
 }
-.contacto-fondo-img {
-    position: fixed;
-    opacity: 80%;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    z-index: -1;
-}
-
 /* Pie de Pagina */
 footer{
     background-color: #4e4f50;
